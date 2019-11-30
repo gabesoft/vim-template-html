@@ -1,6 +1,6 @@
 fun s:SelectHtml()
     let lineIndex = 1
-    while lineIndex < 50 && lineIndex <= line("$")
+    while lineIndex < 20 && lineIndex <= line("$")
         if getline(lineIndex) =~ '{{.*}}\|<%.*%>'
             set filetype=templatehtml
         endif
