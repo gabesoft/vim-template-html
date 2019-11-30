@@ -1,4 +1,4 @@
-jf exists("b:current_syntax")
+if exists("b:current_syntax")
   finish
 endif
 
